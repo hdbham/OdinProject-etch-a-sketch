@@ -1,0 +1,27 @@
+#container {
+    padding: 2rem;
+    block-size: 40%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: white; 
+   }
+   
+.gridsquare {
+    border: 1px grey dotted;
+    border-radius: 20%;
+    color: black;
+    height: 2rem;
+    width: 2rem;
+}
+
+.row {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    
+
+}
